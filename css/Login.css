@@ -1,0 +1,81 @@
+body{
+    background: rgb(230, 252, 244);
+    color: black;
+}
+/*Encabezado*/
+.nombre {
+    color: #0B1984;
+    font-family: 'Kotta One', serif;
+    font-size: 48px;
+    font-weight: bold;
+   /* width: 92px;
+    height: 54px;  */
+    margin: 48px auto;
+    text-align:center;
+    float: inline-start;
+    word-spacing: 5px;      
+}
+/*Slogan*/
+.slogan{
+    font-size: 18px;
+    font-family: 'Kotta One', serif;
+    color: black;
+    width: 400px;
+    height: 100px;    
+    text-align: center;
+    margin: 2px auto;            
+}
+
+.slogan, 
+.rounded{
+    padding-top: 70px;
+    padding-left: 0px;
+}
+/*/Slogan*/
+
+/* Carrusel*/
+.img-1{
+    background-image: url('../IMAGENES/fondo.png');
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height:320px;
+}
+.img-2{
+    background-image: url('../IMAGENES/tratamientos-optometria.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height:320px;
+}
+.img-3{
+    background-image: url('../IMAGENES/optometria-santa-marta-1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height:320px;
+}
+
+.carousel-inner{
+    padding-top: 235px;
+    margin-left:  70px;
+    margin-right: 5px ;
+    position: center;
+}
+h5{
+    background-color: cornsilk;
+    color: black;
+    text-align: center;
+    padding: 1%;
+
+}
+/*Pie de página*/
+footer {
+    font-family: 'Kotta One', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10%;
+}
+
+
