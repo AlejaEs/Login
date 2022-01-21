@@ -1,5 +1,5 @@
 <h1>Login1🚀</h1>
-    <img align="left" width="98%"   alt="GIF" src="https://cdn.dribbble.com/users/1582430/screenshots/5496966/media/f0593ce1654f08375a28787287e128ec.gif" />
+    <img align="left" width="50%" alt="GIF" src="https://cdn.dribbble.com/users/2234430/screenshots/8587843/media/5a7b6b3be7edd17ae98a25d010277e62.gif" />
     <br><br>
 <h3>Sobre este práctica</h3> 
 <p>Es un login para una óptica, con un carrusel de imagenes de examenes que se hacen en la consulta.</p> 
