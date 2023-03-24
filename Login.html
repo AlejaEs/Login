@@ -1,113 +1,216 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <!--Required meta tags-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<!--Required meta tags-->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <link href="https://allfont.es/allfont.css?fonts=matura-mt-script-capitals" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kotta+One&display=swap" rel="stylesheet">
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+		<link
+			href="https://allfont.es/allfont.css?fonts=matura-mt-script-capitals"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kotta+One&display=swap"
+			rel="stylesheet"
+		/>
 
-    <link rel="stylesheet" href="css/Login.css">
+		<!--Estilos propios-->
+		<link rel="stylesheet" href="css/Login.css" />
 
-    <title>Login</title>
-</head>
-<body>
-    <header>
-        <div>
-          <h1 class="nombre">ÓPTICA C.E.OP.</h1>          
-        </div>  
-    </header>
+		<title>Login</title>
+	</head>
+	<body>
+		<header>
+			<div>
+				<h1 class="nombre">ÓPTICA C.E.OP.</h1>
+			</div>
+		</header>
 
-    <section>
-        <div class="row g-0">
-            <!--CARRUSEL-->
-            <div class="col-lg-7 d-none d-lg-block"> 
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item img-1 min-vh-95 active" data-bs-interval="10000">                        
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Examen de Agudeza visual</h5>                          
-                        </div>
-                      </div>
-                      <div class="carousel-item img-2 min-vh-95" data-bs-interval="2000">                        
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Examen de optometría para niños</h5>                          
-                        </div>
-                      </div>
-                      <div class="carousel-item img-3 min-vh-95">                        
-                        <div class="carousel-caption d-none d-md-block">
-                          <h5>Examen Fondo de ojo</h5>                          
-                        </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div>
-            <!--SLOGAN-->
-            <div class="col-lg-5 d-flex flex-column align-items-end min-vh-90 ">
-                <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 w-100">
-                    <img src="IMAGENES/opticaceop.jpg" class="rounded float-start " width="70" alt="logo">
-                    <h2 class= "slogan">CENTRO DE ESPECIALIDADES OPTOMETRICAS</h2>
-                </div>
-                <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
-                    <h2 class="fw-bold text-center mb-4">Bienvenido</h2>
+		<section>
+			<div class="row g-0">
+				<!--CARRUSEL-->
+				<div class="col-lg-7 d-none d-lg-block">
+					<div
+						id="carouselExampleDark"
+						class="carousel carousel-dark slide"
+						data-bs-ride="carousel"
+					>
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"
+							></button>
+						</div>
+						<div class="carousel-inner">
+							<div
+								class="carousel-item img-1 min-vh-95 active"
+								data-bs-interval="10000"
+							>
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Examen de Agudeza visual</h5>
+								</div>
+							</div>
+							<div
+								class="carousel-item img-2 min-vh-95"
+								data-bs-interval="2000"
+							>
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Examen de optometría para niños</h5>
+								</div>
+							</div>
+							<div class="carousel-item img-3 min-vh-95">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Examen Fondo de ojo</h5>
+								</div>
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleDark"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleDark"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
 
-                    <!--LOGIN-->                    
-            <form action="" method="POST" class="formulario__login">
-                <div class="mb-4">
-                    <label class="form-label fw-bold" for="usuario">Escriba su usuario:</label>
-                    <input class="form-control" placeholder="Ingrese su usuario" type="text" name="usuario" id="usuario" required>
-                </div>
-                <div class="mb-4">
-                    <label class="form-label fw-bold" for="contraseña">Escriba su contraseña:</label>
-                    <input class="form-control" placeholder="Ingrese su contraseña" type="text"  maxlength="10" name="contraseña" id="contraseña" required>
-                </div>
-                <div class="mb-3 form-check" >
-                    <label class="form-check-label" for="connected">Mantenerme conectado</label>
-                    <input class="form-check-input" type="checkbox"  name="connected" id="connected" >
-                </div>
+				<!--SLOGAN-->
+				<div class="col-lg-5 d-flex flex-column align-items-end min-vh-90">
+					<div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 w-100">
+						<img
+							src="IMAGENES/opticaceop.jpg"
+							class="rounded float-start"
+							width="70"
+							alt="logo"
+						/>
+						<h2 class="slogan">CENTRO DE ESPECIALIDADES OPTOMETRICAS</h2>
+					</div>
+					<div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
+						<h2 class="fw-bold text-center mb-4">Bienvenido</h2>
 
-                <div class="d-grid">
-                    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-                </div>
-                <div class="my-3 w-100">
-                    <span><a target="_blank" href="Recuperar contraseña.html">¿Olvidaste la contraseña?</a></span> <br>
-                </div>
-            </form>
-                </div>
-            </div>
-        </div>               
-       </div>        
-    </div>
-</section>
-<footer>
- <h3>Creado por Alejandra Espinosa &copy;2021 | Todos los derechos reservados</h3> 
-</footer>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
-integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
-<script src="script.js"></script>
-</body>
+						<!--LOGIN-->
+						<form action="" method="POST" class="formulario__login">
+							<div class="mb-4">
+								<label class="form-label fw-bold" for="usuario"
+									>Escriba su usuario:</label
+								>
+								<input
+									class="form-control"
+									placeholder="Ingrese su usuario"
+									type="text"
+									name="usuario"
+									id="usuario"
+									required
+								/>
+							</div>
+							<div class="mb-4">
+								<label class="form-label fw-bold" for="contraseña"
+									>Escriba su contraseña:</label
+								>
+								<input
+									class="form-control"
+									placeholder="Ingrese su contraseña"
+									type="text"
+									maxlength="10"
+									name="contraseña"
+									id="contraseña"
+									required
+								/>
+							</div>
+							<div class="mb-3 form-check">
+								<label class="form-check-label" for="connected"
+									>Mantenerme conectado</label
+								>
+								<input
+									class="form-check-input"
+									type="checkbox"
+									name="connected"
+									id="connected"
+								/>
+							</div>
+							<div class="d-grid">
+								<button type="submit" class="btn btn-primary">
+									Iniciar Sesión
+								</button>
+							</div>
+							<div class="my-3 w-100">
+								<span
+									><a target="_blank" href="Recuperar contraseña.html"
+										>¿Olvidaste la contraseña?</a
+									></span
+								>
+								<br />
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--FOOTER-->
+		<footer>
+			<span class="footer__copy">
+				Made with 💗 por MalejaDev &copy; 2021. All rights reserved
+			</span>
+		</footer>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<script src="script.js"></script>
+	</body>
 </html>
