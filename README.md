@@ -11,8 +11,8 @@
 <code><img height="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"></code>
 <br>
 
-<b>Actualmente pueden verlo 
-<a href="https://alejaes.github.io/Login/" target="_blank">Aquí</a></b>
+<!--<b>Actualmente pueden verlo 
+<a href="https://alejaes.github.io/Login/" target="_blank">Aquí</a></b>-->
 
 <p>Si gustas colaborar en este proyecto no dudes en: <b>¡Conéctarte Conmigo!</b></p>
 <br>
